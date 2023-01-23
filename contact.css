@@ -1,0 +1,444 @@
+body {
+
+    background-image: linear-gradient(white, grey);
+    margin: 0%;
+    width: 100vw;
+    height: 800px;
+    min-width: 330px;
+    font-family: 'Fredoka', cursive;
+
+
+}
+
+main {
+
+    background-color: white;
+    align-self: center;
+    margin: auto;
+    position: relative;
+    top: 5vh;
+    height: 550px;
+    width: 80vw;
+    box-shadow: 2px 2px 4px #adb5bd;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: row;
+    max-width: 1210px;
+    min-width: 280px;
+    
+}
+
+
+#one {
+    
+    width: 35vw;
+    height: 550px;
+    float: left;
+    color: #CC7975;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 470px;
+    min-width: 300px;
+
+}
+
+#one>img {
+    
+    width: 35vw;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 3%;
+    max-width: 470px;
+    min-width: 300px;
+
+}
+
+
+
+#two {
+
+    width: 45vw;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    max-width: 901px;
+    min-width: 363px;
+    
+}
+
+#two>div {
+    min-width: 360px;
+    width: 43vw;
+    height: 550px;
+    max-width: 901px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3 {
+    border-bottom: 1px solid #CC7975;
+    font-size: 35px;
+    margin-top: 0;
+}
+
+#info {
+    display: flex;
+    width: 43vw;
+    max-width: 871px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+input {
+
+    width: 20vw;
+    min-width: 240px;
+    border-radius: 6%;
+    border: 1px solid #E3E3E3;
+    resize: none;
+    padding: 5px 5px;
+    word-wrap: break-word;
+    
+}
+
+input:focus {
+    
+    border-radius: 4%;
+    outline-color: #CC7975;
+    outline-style: dotted;
+    outline-width: 1px;
+}
+
+label {
+
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+#info>div {
+    width: 21.5vw;
+    min-width: 260px;
+}
+
+#info>div>div {
+    width: 20vw;
+    min-width: 240px;
+    margin: 0 0 20px 0.5vw;
+}
+
+#long {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43vw;
+    min-width: 260px;
+    margin-left: 0.25vw;
+}
+
+#long>div {
+    
+    width: 42.5vw;
+    margin: 0;
+    min-width: 260px;
+}
+
+#message {
+    
+    width: 41.7vw;
+    height: 18vw;
+    max-height: 150px;
+    min-width: 260px;
+    border-radius: 6%;
+    border: 1px solid #E3E3E3;
+    resize: none;
+    padding: 5px 5px;
+    word-wrap: break-word;
+
+}
+
+textarea:focus {
+    
+    outline-color: #CC7975;
+    outline-style: dotted;
+    outline-width: 1px;
+}
+
+#button {
+    margin-top: 20px;
+    height: 4vw;
+    max-height: 35px;
+    background-color: #CC7975;
+    border-radius: 5%;
+    width: 41.7vw;
+    min-width: 260px;
+}
+
+#instagram {
+
+    height: 3vw;
+    width: 3vw;
+    max-width: 50px;
+    min-width: 25px;
+    min-height: 25px;
+    max-height: 50px;
+    padding-top: 5px;
+    padding-right: 7px;
+
+}
+#insta {
+    color: black;
+    padding-top: 10px;
+}
+#footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 1210px) {
+
+    input {
+
+        width: 41.7vw;
+        min-width: 240px;
+        
+    }
+
+    #info>div {
+        width: 43vw;
+        min-width: 260px;
+    }
+
+    #info>div>div {
+        width: 42.5vw;
+        min-width: 240px;
+        margin: 0 0 10px 0.5vw;
+    }
+
+    #message {
+    
+        width: 41.7vw;
+        height: 9vw;
+        max-height: 70px;
+        min-width: 260px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 823px) {
+
+    #one {
+        display: none;
+    }
+
+    #two {
+
+        width: 80vw;
+        
+    }
+    
+    #two>div {
+
+        width: 80vw;
+    
+    }
+    
+    #info {
+
+        width: 76vw;
+        
+    }
+    
+    input {
+    
+        width: 36.8vw;
+        min-width: 150px;
+        
+    }
+    
+    #info>div {
+        width: 36.9vw;
+        min-width: 170px;
+    }
+    
+    #info>div>div {
+        min-width: 150px;
+        margin: 0 0.5vw 20px 0.5vw;
+    }
+    
+    #long {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 43vw;
+        min-width: 260px;
+        margin-left: 0.5vw;
+    }
+    
+    #long>div {
+        
+        width: 42.5vw;
+        margin: 0;
+        min-width: 260px;
+        margin-left: 0.5vw;
+    }
+    
+    #message {
+        
+        width: 74.2vw;
+        height: 32vw;
+        min-height: 190px;
+        min-width: 200px;
+    
+    }
+    
+    #button {
+        margin-top: 20px;
+        height: 5vw;
+        max-height: 35px;
+        min-height: 30px;
+        border-radius: 5%;
+        width: 74.2vw;
+        min-width: 180px;
+    }
+
+}
+
+@media screen and (max-width: 449px) {
+
+    #two {
+
+        clear: both;
+        width: 80vw;
+        float: left;
+        justify-content: stretch;
+        min-width: 270px;
+        padding-left: 5px;
+    }
+
+    #two>div {
+
+        min-width: 270px;
+    
+    }
+
+    h3 {
+        font-size: 25px;
+        min-width: 190px;
+    }
+
+    
+    label {
+        font-size: 15px;
+    }
+    
+    #two>div {
+
+        width: 80vw;
+    
+    }
+    
+    #info {
+
+        width: 76vw;
+        min-width: 261px;
+        
+    }
+    
+    input {
+    
+        width: 75vw;
+        min-width: 261px;
+        height: 25px;
+        
+    }
+    
+    #info>div {
+        width: 76vw;
+        min-width: 261px;
+    }
+    
+    #info>div>div {
+        min-width: 261px;
+        margin: 0 0.5vw 20px 0.5vw;
+    }
+    
+    #long {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 43vw;
+        min-width: 261px;
+        margin-left: 0.5vw;
+    }
+    
+    #long>div {
+        
+        width: 42.5vw;
+        margin: 0;
+        min-width: 261px;
+        margin-left: 0.5vw;
+    }
+    
+    #message {
+        
+        width: 74.2vw;
+        height: 12vw;
+        min-height: 100px;
+        min-width: 261px;
+    
+    }
+    
+    #button {
+        margin-top: 20px;
+        height: 5vw;
+        max-height: 35px;
+        min-height: 30px;
+        border-radius: 5%;
+        width: 74.2vw;
+        min-width: 261px;
+    }
+
+    #instagram {
+
+        height: 3vw;
+        width: 3vw;
+        max-width: 50px;
+        min-width: 25px;
+        min-height: 25px;
+        max-height: 50px;
+        padding-top: 5px;
+        padding-right: 7px;
+    
+    }
+    #insta {
+        color: black;
+        padding-top: 10px;
+    }
+    #footer {
+        text-align: center;
+    }
+    #errorMessage {
+        font-size: 15px;
+    }
+    #title1 {
+
+        height: 50px;
+        min-width: 330px;
+   
+    }
+
+}
+    

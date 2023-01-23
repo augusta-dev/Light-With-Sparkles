@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<style>
+
+			* {box-sizing: border-box;}
+			body {font-family: Verdana, sans-serif;}
+			.mySlides {display: none;}
+			img {vertical-align: middle;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+			}
+
+			#two {
+
+				display: none;
+
+			}
+			#left {
+				float: left;
+				width: 32vw;
+				height: 99vh;
+			}
+			#middle {
+				float: left;
+				width: 32vw;
+				height: 99vh;
+			}
+			#right {
+				float: left;
+				width: 32vw;
+				height: 99vh;
+			}
+
+			/* Caption text */
+			.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+			}
+
+			#div {
+
+				float: left;
+				margin: 0 auto;
+
+			}
+
+			.image {
+
+				width: 99vw;
+				height: 90vh;
+
+			}
+
+			.active {
+			background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			@keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media screen and (max-width: 300px) {
+			.text {font-size: 11px}
+			}
+
+			@media screen and (max-width: 570px) {
+
+				.image {
+
+					width: 99vw;
+					height: 90vh;
+
+				}
+				#one {
+
+					display: none;
+
+				}
+
+			}
+
+		</style>
+
+	</head>
+	
+	<body>
+
+		<h2>Automatic Slideshow</h2>
+
+		<p>Change image every 2 seconds:</p>
+
+		<div class="slideshow-container" id="one">
+
+			<section id="left">
+
+				<div class="mySlides fade">
+					
+					<img src="slideshow/14.jpg" class="image">
+					
+					<div class="text">Caption Text</div>
+				
+				</div>
+
+				<div class="mySlides fade">
+
+					<img src="slideshow/one.jpg" class="image">
+
+					<div class="text">Caption Two</div>
+
+				</div>
+
+				<div class="mySlides fade">
+
+					<img src="slideshow/two.jpg" class="image">
+
+					<div class="text">Caption Three</div>
+
+				</div>
+
+				<div class="mySlides fade">
+					
+					<img src="slideshow/three.jpg" class="image">
+					
+					<div class="text">Caption Text</div>
+				
+				</div>
+
+				<div class="mySlides fade">
+
+					<img src="slideshow/four.jpg" class="image">
+
+					<div class="text">Caption Two</div>
+
+				</div>
+
+				<div class="mySlides fade">
+
+					<img src="slideshow/five.jpg" class="image">
+
+					<div class="text">Caption Three</div>
+
+				</div>
+
+					<div class="mySlides fade">
+					
+					<img src="slideshow/six.jpg" class="image">
+					
+					<div class="text">Caption Text</div>
+				
+				</div>
+
+				<div class="mySlides fade">
+
+					<img src="slideshow/seven.jpg" class="image">
+
+					<div class="text">Caption Two</div>
+
+				</div>
+
+				<div class="mySlides fade">
+
+					<img src="slideshow/eight.jpg" class="image">
+
+					<div class="text">Caption Three</div>
+
+				</div>
+
+				<div class="mySlides fade">
+					
+					<img src="slideshow/nine.jpg" class="image">
+					
+					<div class="text">Caption Text</div>
+				
+				</div>
+
+			</section>
+
+			<section id="middle">
+
+				<div class="mySlides fade">
+
+					<img src="slideshow/ten.jpg" class="image">
+
+					<div class="text">Caption Two</div>
+
+				</div>
+
+				<div class="mySlides fade">
+					
+					<img src="slideshow/eleven.jpg" class="image">
+
+					<div class="text">Caption Three</div>
+
+				</div>
+
+				<div class="mySlides fade">
+					
+					<img src="slideshow/12.jpg" class="image">
+
+					<div class="text">Caption Three</div>
+
+				</div>
+				
+				<div class="mySlides fade">
+					
+					<img src="slideshow/13.jpg" class="image">
+
+					<div class="text">Caption Three</div>
+
+				</div>
+				
+				<div class="mySlides fade">
+					
+					<img src="slideshow/15.jpg" class="image">
+
+					<div class="text">Caption Three</div>
+
+				</div>
+
+				<div class="mySlides fade">
+				
+					<img src="slideshow/16.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/17.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/18.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/19.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/20.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+			</section>
+				
+			<section id="right">
+
+				<div class="mySlides fade">
+				
+					<img src="slideshow/21.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/22.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/23.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/24.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/25.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/26.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/27.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/28.jpg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/29.jpeg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+					<img src="slideshow/30.jpeg" class="image">
+				
+					<div class="text">Caption Three</div>
+				
+				</div>
+
+			</section>
+			
+			
+		</div>
+
+		<div class="slideshow-container" id="two">
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/14.jpg" class="image">
+		
+					<div class="text">Caption Text</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/one.jpg" class="image">
+		
+					<div class="text">Caption Two</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/two.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/three.jpg" class="image">
+		
+					<div class="text">Caption Text</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/four.jpg" class="image">
+		
+					<div class="text">Caption Two</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/five.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/six.jpg" class="image">
+		
+					<div class="text">Caption Text</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/seven.jpg" class="image">
+		
+					<div class="text">Caption Two</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/eight.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/nine.jpg" class="image">
+		
+					<div class="text">Caption Text</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/ten.jpg" class="image">
+		
+					<div class="text">Caption Two</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/eleven.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/12.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/13.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/15.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/16.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/17.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/18.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/19.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/20.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/21.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/22.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/23.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/24.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/25.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/26.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/27.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/28.jpg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/29.jpeg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+				<div class="mySlides2 fade">
+		
+					<img src="slideshow/30.jpeg" class="image">
+		
+					<div class="text">Caption Three</div>
+		
+				</div>
+		
+		</div>
+
+
+		<br>
+
+		<div id="div" style="text-align:center">
+
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span>
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span>
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span>
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span>
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span>
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span>
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span>
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span>
+
+		</div>
+
+		<div id="div" style="text-align:center">
+		
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dotTwo"></span>
+			<span class="dotTwo"></span>
+			<span class="dotTwo"></span>
+			<span class="dotTwo"></span>
+		
+		</div>
+
+		<footer id="author">
+			
+			Augusta
+		</footer>
+
+		<script>
+
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) {slideIndex = 1}    
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";  
+				dots[slideIndex-1].className += " active";
+				setTimeout(showSlides, 7000);
+			}
+
+			var slideIndexTwo = 0;
+				showSlidesTwo();
+
+				function showSlides() {
+					var i;
+					var slidesTwo = document.getElementsByClassName("mySlides2");
+					var dotsTwo = document.getElementsByClassName("dotTwo");
+					for (i = 0; i < slides.length; i++) {
+						slidesTwo[i].style.display = "none";
+					}
+					slideIndexTwo++;
+					if (slideIndexTwo > slidesTwo.length) { slideIndexTwo = 1 }
+					for (i = 0; i < dotTwos.length; i++) {
+						dotsTwo[i].className = dotsTwo[i].className.replace(" active", "");
+					}
+					slidesTwo[slideIndexTwo - 1].style.display = "block";
+					dotsTwo[slideIndexTwo - 1].className += " active";
+					setTimeout(showSlidesTwo, 7000);
+				}
+
+		</script>
+
+	</body>
+</html> 

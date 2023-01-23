@@ -1,0 +1,1111 @@
+
+
+body {
+    font-family: 'Fredoka', cursive;
+    background-image: linear-gradient(white, grey );
+    
+}
+h1 {
+    padding-left: 1vw;
+}
+p {
+    font-family: 'Fredoka', cursive;
+    
+}
+h3 {
+    font-family: 'Lobster', 'cursive';
+    font-size: 2.3vw;
+    padding-top: 0%;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#title {
+    font-family: 'Twinkle Star', 'cursive';
+    background-color: black;
+    color: white;
+    width: 20%;
+    font-size: 25px;
+    text-align: center;
+    margin: -10px;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+#with {
+    font-size: 6vh;
+}
+#bottom {
+
+    height: 10%;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    margin-bottom: 1%;
+    
+    
+}
+img {
+
+    max-width: 100%;
+
+}
+img:hover {
+
+    opacity: 1;
+
+}
+.body {
+    float: right;
+    width: 78%;
+    padding: 1% 0 1% 2%;
+}
+#left, #right {    
+    text-align: justify;
+    padding-right: 1px;
+    width: 38%;
+}
+#left {
+    display: inline-block;
+    padding-right: 2px;
+}
+
+
+#details {
+
+    display: none;
+    z-index: 2;
+
+}
+#details1 {
+
+    padding: 3vw 5% 0% 5%;
+    text-align: center;
+    height: 30vw;
+    font-size: 2vw;
+
+}
+
+.detail1 {
+
+    height: 4vw;
+    font-size: 2.1vw;
+    padding-bottom: 0;
+    width: 100%;
+
+}
+
+#scentedCandles {
+
+    z-index: -1;
+    font-family: 'Fredoka', cursive;
+    font-size: 300%;
+    margin-bottom: 0%;
+    margin-top: 0.5vw;
+    height: 85px;
+}
+#main1{
+    z-index: -1;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.p3 {
+    font-weight: bold;
+    margin: -3px 0 -3px 0;
+    font-size: 3.2vw;
+}
+
+#p1 {
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+
+}    
+hr {
+    background-color: black;
+    width: 50px;
+    border-radius: 10%;
+    border: 5px solid black;
+    margin-bottom: 0;
+    margin-top: 1vw;
+}
+#hr {
+    margin: 0;
+}
+#hover {
+    font-family: 'Fredoka' ,cursive;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#here:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1032px) {
+    .body>img {
+
+        width: 47%;
+        height: 25vw;
+
+    }
+    #title {
+        height: 100%;
+        position: fixed!important;
+    }
+    #thirdType {
+        width: 78.1%;
+        clear: right;
+    }
+    #thirdType>img {
+        width: 23.2%;
+        height: 25vw;
+    }
+    #exception {
+        width: 78%;
+        float: right;
+    }
+    #exception>img {
+        width: 23%;
+        height: 25vw;
+    }
+    .extra {
+        padding-left: 2%;
+    }
+    .body>section {
+        width: 49%;
+        height: 170%;
+        float: right;
+    }
+    .body>section>div {
+        width: 100%;
+        height: 40%;
+    }
+    .body>section>div>img {
+        padding-left: 2%;
+        width: 96%;
+        height: 12vw;
+    }
+    .body>section>img {
+        padding-left: 2%;
+        width: 96%;
+        height: 12vw;
+    }  
+    #secondSize {
+        display: none;
+    }
+    #thirdSize {
+        display: none;
+    }
+    #exceptions {
+        display: none;
+    }
+    .padding {
+        padding-left: 1.5%;
+    }
+    .padding1 {
+        padding-left: 3%;
+    }
+    #scentedCandles {
+        margin-top: 0%;
+        font-size: 350%;
+    }
+    .sparkley {
+        width: 30%;
+        box-shadow: 0 38px 32px -23px black;
+    }
+    
+}
+
+
+@media screen and (max-width: 1032px) {
+    #left, #right, #title, .body {
+        width: 100%;
+    }
+    #left, #right, .body {
+
+        padding: 0 1% 1% 0%;  
+
+    }
+    #title {
+        
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Twinkle Star', cursive;
+        width: 100vw;
+        background-color: black;
+        color: white;
+        clear: left;
+        height: 84px;
+        margin-right: -10px;
+        padding: 1px 2% 0vw 2%;
+        overflow: visible;
+        
+    }
+    #light {
+    
+        font-size: 35px;
+        text-align: center;
+        align-self: center;
+        position: relative;
+        top: -5px;
+        font-weight: bold;
+
+    }
+
+
+    #p {
+
+        width: 92vw;
+    
+    }
+
+    h1 {
+        padding-left: 0;
+    }
+    
+    #menu {
+
+        width: 2.5vw;
+        height: 3vw;
+        position: relative;
+        left: 22vw;
+        top: -65px;
+        
+    }
+
+    .menu1 {
+        
+        width: 28px;
+        height: 5px;
+        margin-bottom: 5px;
+        background-color: white;
+    }
+
+    #details1 {
+
+        display: none;
+
+    }
+    #with {
+        font-size: 35px;
+    }
+    #details {
+
+        display: none;
+        padding: 2% 6% 20px 0%;
+        height: 1px;
+        margin-left: -2%;
+        width: 100vw;
+        background-color: black;
+        position: relative;
+        top: -70px;
+        
+    }
+    .detail {
+
+        background-color: black;
+        width: 20%;
+        margin: 0% 2% 0% 2%;
+        font-weight: bold;
+        color: white;
+        float: left;
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        top: -2vw;
+    }
+    #scentedCandles {
+
+        position: relative;
+        margin-top: 2.3vw;
+
+    }
+    
+    .p3 {
+        font-size: 4.1vw;
+    }
+
+    h3 {
+        font-size: 3.2vw;
+    }
+
+    #left, #thirdType, #exception {
+        display: none;
+    }
+    #exceptions {
+        width: 100%;
+    }
+    #exceptions>img {
+        width: 31.8%;
+    }
+
+    .body>img {
+        width: 31.7%;
+        height: 40vw;
+    }
+    .padding {
+        padding-left: 1%;
+    }
+    .padding2 {
+        padding-left: 1.7%;
+    }
+    .padding4 {
+        position: relative;
+        left: 0.2vw;
+    }
+    .body>section {
+        width: 32.5%;
+        height: 170%;
+        float: right;
+        padding-left: 0.8%;
+    }
+    .body>section>div {
+        width: 98%;
+    }
+    .body>section>div>img {
+
+        padding-left: 2%;
+        width: 98%;
+        height: 19.2vw;
+    }
+    .body>section>img {
+        padding-left: 2%;
+        width: 96%;
+        height: 19.2vw;
+    }
+    #left, #thirdType, #exception {
+        display: none;
+    }
+    .sparkley {
+        width: 100%;
+        height: 1.5vh;
+        box-shadow: 0 3px 3px -3px black;
+    }
+
+
+}
+
+@media screen and (max-width: 665px) {
+    #left, #right, #title, .body {
+        width: 100%;
+    }
+    #left, #right, .body {
+
+        padding: 0 1% 1% 0%;  
+
+    }
+
+    #light {
+    
+        font-size: 33px;
+        position: relative;
+        top: -9px;
+
+    }
+
+    #title {
+    
+        height: 80px;
+        
+    }
+    h1 {
+        padding-left: 0;
+    }
+    
+    #menu {
+
+        width: 2.5vw;
+        height: 3vw;
+        position: relative;
+        left: 15vw;
+        right: 5px;
+        top: -66px;
+        
+    }
+    .menu1 {
+        width: 28px;
+        height: 5px;
+        margin-bottom: 5px;
+    }
+
+    #details1 {
+
+        display: none;
+
+    }
+    #details {
+
+        padding: 3% 6% 3% 0%;
+        height: 1px;
+        margin-left: -2%;
+        width: 100%;
+        margin-top: -10%;
+        position: relative;
+        top: -1.4vw;
+        
+    }
+    .detail {
+
+        margin: 0% 2% 0% 2%;
+        font-size: 20px;
+        position: relative;
+        top: -2vw;
+
+    }
+    #scentedCandles {
+
+        position: relative;
+        margin-top: 2.3vw;
+
+    }
+    
+    .p3 {
+        font-size: 4.1vw;
+    }
+
+    h3 {
+        font-size: 3.2vw;
+    }
+
+    #left, #thirdType, #exception {
+        display: none;
+    }
+    #exceptions {
+        width: 100%;
+    }
+    #exceptions>img {
+        width: 31.8%;
+    }
+
+    .body>img {
+        width: 31.7%;
+        height: 40vw;
+    }
+    .padding {
+        padding-left: 1%;
+    }
+    .padding2 {
+        padding-left: 1.7%;
+    }
+    .padding4 {
+        position: relative;
+        left: 0.2vw;
+    }
+    .body>section {
+        width: 32.5%;
+        height: 170%;
+        float: right;
+        padding-left: 0.8%;
+    }
+    .body>section>div {
+        width: 98%;
+    }
+    .body>section>div>img {
+
+        padding-left: 2%;
+        width: 98%;
+        height: 19.2vw;
+    }
+    .body>section>img {
+        padding-left: 2%;
+        width: 96%;
+        height: 19.2vw;
+    }
+    #left, #thirdType, #exception {
+        display: none;
+    }
+    .sparkley {
+        width: 100%;
+        height: 1.5vh;
+        box-shadow: 0 3px 3px -3px black;
+    }
+
+
+}
+
+@media screen and (max-width: 583px) {
+
+    .sparkley {
+        height: auto;
+        width: 100%;
+    }
+
+    #title {
+    
+        height: 70px;
+       
+    }
+
+    #light {
+
+        font-size: 30px;
+        position: relative;
+        top: 1px;
+    }
+
+    h1 {
+        padding-left: 0;
+
+    }
+    #p {
+        width: 90vw;
+        margin-bottom: -2vw;
+
+    }
+    
+    #with {
+        font-size: 30px;
+    }
+    #menu {
+
+        position: relative;
+        right: 5px;
+        left: 7vw;
+        top: -50px;
+        
+    }
+    .menu1 {
+
+        width: 24px;
+        height: 4px;
+        margin-bottom: 4px;
+    }
+
+    #p1 {
+        padding-top: 5vw;
+    }
+
+    #details {
+
+        display: none;
+        padding: 4% 6% 0px 0%;
+        height: 17px;
+        margin-left: -2%;
+        position: relative;
+        top: -10px;
+    }
+    .detail {
+    
+        width: 20%;
+        margin: 0% 2% 0% 2%;
+        text-align: center;
+        font-size: 17px;
+        align-self: center;
+
+    }
+    #scentedCandles {
+
+        position: relative;
+        top: 1vw;
+        font-size: 10vw;
+        height: 12.5vw;
+        
+
+    }
+    hr {
+        width: 15vw;
+        height: 0.3vw;
+        margin-bottom: 2vw;
+    }
+    .p2 {
+
+        font-size: 3vw;
+
+    }
+    #hover {
+
+        font-size: 3vw;
+
+    }
+    .p3 {
+        font-size: 9.5vw;
+    }
+    h3 {
+        padding-top: 0.5vw;
+        font-size: 6.5vw;
+    }
+    #left {
+        float: left;
+    }
+    #right {
+        float: left;
+    }
+    .body>img {
+        width: 46%;
+        height: 59vw;
+    }
+    .body>section {
+        width: 48%;
+        height: 170%;
+        float: right;
+    }
+    .body>section>div {
+        width: 100%;
+        height: 40%;
+    }
+    .body>section>div>img {
+        padding-left: 2%;
+        width: 96%;
+        height: 28.2vw;
+
+    }
+    .body>section>img {
+        padding-left: 2%;
+        width: 96%;
+        height: 28.2vw;
+    }
+    #exceptions, #secondSize, #thirdSize {
+        width: 100%;
+        padding-right: 0%;
+    }
+    #exceptions>img {
+        width: 45%;
+    }
+    #left, #thirdType, #exception {
+        display: none;
+    }
+    
+
+}
+
+@media screen and (max-width: 405px) {
+
+    #title {
+
+        height: 50px;
+
+    }
+
+    #light {
+
+        font-size: 20px;
+        position: relative;
+        top: 2px;
+
+    }
+    #p {
+        width: 100vw;
+        
+    }
+    #with {
+        font-size: 20px;
+    }
+    #menu {
+
+        position: relative;
+        left: 3vw;
+        top: -32px;
+        
+    }
+    .menu1 {
+
+        width: 20px;
+        height: 3px;
+        margin-bottom: 3px;
+    }
+
+    #details {
+
+        display: none;
+        padding: 2% 6% 0px 0%;
+        height: 15px;
+        margin-left: -2%;
+        position: relative;
+        top: 1px;
+        
+    }
+    .detail {
+        
+        margin: 0% 2% 0% 2%;
+        font-size: 10px;
+        position: relative;
+        top: -3px;
+    }
+    #scentedCandles {
+        font-size: 9.5vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+
+    hr {
+        width: 11vw;
+        height: 0;
+        border-bottom: 1vw;
+    }
+
+    #p1 {
+        padding-top: 2vw;
+    }
+
+
+}
+
+@media screen and (max-width: 280px) {
+
+    #title {
+        height: 13vw;
+    }
+    #light {
+
+        font-size: 5vw;
+        position: relative;
+        top: 1vw;
+
+    }
+    #with {
+        font-size: 5vw;
+    }
+    #menu {
+
+        position: relative;
+        left: 7vw;
+        top: -8vw;
+        right: 1vw;
+        
+    }
+    .menu1 {
+        width: 5vw;
+        height: 2px;
+        margin-bottom: 2px;
+    }
+
+    #details {
+
+        display: none;
+        padding: 2% 6% 0px 0%;
+        height: 4vw;
+        margin-left: -2%;
+        position: relative;
+        top: 5px;
+        
+    }
+    .detail {
+    
+        width: 20%;
+        margin: 0% 2% 0% 2%;
+        font-size: 3vw;
+        position: relative;
+        top: -2vw;
+    }
+    #scentedCandles {
+        font-size: 8vw;
+        padding-top: 2vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+
+    hr {
+        width: 15vw;
+        height: 0.1vw;
+    }
+
+
+}
+
+
+@media screen and (max-width: 225px) {
+
+    #title1 {
+
+        height: 14vw;
+
+    }
+
+    #light {
+
+        font-size: 5vw;
+        position: relative;
+        top: 1vw;
+    }
+    #with {
+        font-size: 5vw;
+    }
+
+    #menu {
+
+        position: relative;
+        left: 7vw;
+        top: -8vw;
+        
+    }
+    .menu1 {
+        width: 5vw;
+        height: 2px;
+        margin-bottom: 2px;
+    }
+
+    #details {
+
+        display: none;
+        padding: 2% 6% 0px 0%;
+        height: 5vw;
+        margin-left: -2%;
+        position: relative;
+        top: 3px;
+        
+    }
+    .detail {
+    
+        margin: 0% 2% 0% 2%;
+        font-size: 3vw;
+        position: relative;
+        top: -2vw;
+    }
+
+    hr {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        width: 10vw;
+        height: 0;
+        border-bottom: 1vw;
+    }
+    #scentedCandles {
+        height: 6vw;
+        font-size: 8vw;
+        padding-bottom: 0;
+        padding-top: 2vw;
+
+    }
+    #p1 {
+        padding-top: 8vw;
+    }
+
+    #exceptions, #secondSize, #thirdSize {
+        width: 102%;
+        position: relative;
+        left: 1.5vw;
+    }
+
+    .body>img {
+        width: 45%;
+        height: 59vw;
+    }
+    .body>section {
+        width: 48%;
+        height: 170%;
+        float: right;
+    }
+    .body>section>div {
+        width: 100%;
+        height: 40%;
+    }
+    .body>section>div>img {
+        padding-left: 2%;
+        width: 96%;
+        height: 28.2vw;
+
+    }
+    .body>section>img {
+        padding-left: 2%;
+        width: 96%;
+        height: 28.2vw;
+    }
+    .p3 {
+        font-size: 7.5vw;
+    }
+    h3 {
+        font-size: 5.5vw;
+    }
+
+
+}
+
+@media screen and (max-width: 200px) {
+
+    #title {
+        height: 14vw;
+    }
+
+    #light {
+        font-size: 5vw;
+        position: relative;
+        top: 1.5vw;
+    }
+    #with {
+        font-size: 5vw;
+    }
+    #menu {
+
+        position: relative;
+        left: 7vw;
+        top: -7vw;
+        
+    }
+    .menu1 {
+        width: 5vw;
+        height: 1.3px;
+        margin-bottom: 1.3px;
+    }
+
+    #details {
+
+        display: none;
+        padding: 2% 6% 0px 0%;
+        height: 5vw;
+        margin-left: -2%;
+        position: relative;
+        top: 5px;
+        
+    }
+    .detail {
+    
+        margin: 0% 2% 0% 2%;
+        font-size: 3vw;
+        position: relative;
+        top: -2vw;
+    }
+
+    hr {
+
+        margin-top: 0;
+        margin-bottom: 1vw;
+        width: 12vw;
+        height: 0;
+        border-bottom: 1vw;
+    }
+    #scentedCandles {
+        height: 10vw;
+        font-size: 8vw;
+        padding-bottom: 0;
+        padding-top: 3vw;
+
+    }
+    #p1 {
+        padding-top: 3vw;
+    }
+    .p3 {
+        padding-top: 1vw;
+        font-size: 8vw;
+    }
+    h3 {
+        padding-top: 1vw;
+        font-size: 6vw;
+    }
+
+
+}
+
+
+
+#float-right {
+    padding-right: 3vw;
+    float: right;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Bounce To Right */
+.hvr-bounce-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #929292;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  color: black;
+}
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+  color: black;
+}
+.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.hvr-pulse-grow {
+
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+    -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  background-color: black;
+}
+#designer {
+    font-family: 'Lobster', cursive;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900|Montez);
+
+.sparkley {
+
+  background: lighten( $buttonBackground , 10% );
+  color: $buttonColor;
+  border: none;
+  font-weight: normal;
+  transition: all 0.3s ease;
+
+  height: auto;
+  width: auto;
+  &:hover {
+   
+    background: $buttonBackground;
+    color: transparentize( $buttonColor,0.8 );
+    
+  }
+  
+}

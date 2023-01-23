@@ -1,0 +1,279 @@
+body {
+
+    background-image: linear-gradient(white, grey);
+    margin: 0%;
+    width: 100vw;
+    height: 110vh;
+    min-width: 400px;
+    font-family: 'Fredoka', cursive;
+    min-height: 750px;
+
+}
+
+main {
+
+    align-self: center;
+    margin: auto;
+    height: 92vh;
+    min-height: 550px;
+    width: 90vw;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: row;
+    max-width: 1210px;
+    min-width: 280px;
+    
+}
+
+#text {
+
+    position: relative;
+    top: 20px;
+    width: 45vw;
+    float: left;
+
+}
+
+h3{
+    font-size: 47px;
+    margin-bottom: 50px;
+}
+
+#marks {
+    position: relative;
+    left: 70px;
+}
+
+#quotationMarks {
+    font-size: 45px;
+    font-family: 'Merienda', cursive;
+    color: #F39F39;
+    
+    
+}
+
+#shortText {
+
+    width: 260px;
+    font-size: 18px;
+    font-family: 'Fredoka', cursive;
+    color: black;
+
+}
+    
+#designer {
+    float: left;
+    width: 45vw;
+}
+
+#designer>img {
+
+    width: 39vw;
+    min-width: 573px;
+}
+
+
+.right {
+    position: relative;
+    top: -20px;
+    left: 240px;
+}
+
+.left {
+    position: relative;
+    bottom: -5px;
+    line-height: 0%;
+}
+
+input {
+    float: right;
+    color: white;
+    background: url(https://www.instagram.com/lws_candles/);
+    background-color: #F39F39;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    width: 390px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #F39F39;
+    position: relative;
+    top: 100px;
+    
+
+}
+
+@media screen and (max-width: 979px) {
+
+    #text {
+
+        position: relative;
+        top: 20px;
+        width: 45vw;
+        float: left;
+    
+    }
+    h3{
+        font-size: 4.5vw;
+        margin-bottom: 50px;
+    }
+    
+    #marks {
+        position: relative;
+        left: 30px;
+    }
+    
+    #shortText {
+
+        width: 33vw;
+        font-size: 2.2vw;
+    
+    }
+        
+    #designer {
+
+        width: 52vw;
+    }
+    
+    #designer>img {
+    
+        position: relative;
+        left: 0vw;
+        width: 55vw;
+        min-width: 300px;
+    }
+
+    input {
+
+        font-size: 2.8vw;
+        width: 38vw;
+        height: 5vw;
+        border-radius: 2.5vw;
+        position: relative;
+        right: 1vw;
+        top: 5vw;
+    
+    }
+
+    main {
+
+        height: 82vh;
+        min-height: 550px;
+        width: 95vw;
+
+    }
+    
+    body {
+        height: 100vh;
+
+    }
+
+    #quotationMarks {
+
+        font-size: 7vw;        
+        
+    }
+
+    .right {
+        position: relative;
+        top: -20px;
+        left: 30vw;
+    }
+}
+
+@media screen and (max-width: 537px) {
+
+    
+    #designer>img {
+    
+        position: relative;
+        left: -10vw;
+        width: 65vw;
+        min-width: 300px;
+    }
+
+    h3{
+        font-size: 4.5vw;
+        margin-bottom: 30px;
+    }
+
+    #title1 {
+        min-width: 400px;
+    }
+
+    body {
+        height: 110vh;
+        min-height: 750px;
+    } 
+
+    main {
+        height: 70vh;
+    }
+    
+
+}
+
+@media screen and (max-width: 400px) {
+
+    
+    #designer>img {
+    
+        position: relative;
+        left: -10vw;
+        width: 65vw;
+        min-width: 300px;
+        z-index: 0;
+    }
+
+    h3{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    #text {
+
+        position: relative;
+        top: 20px;
+        width: 88px;
+        float: left;
+    
+    }
+
+    #shortText {
+
+        width: 88px;
+        font-size: 8px;
+    
+    }
+
+    #marks {
+        position: relative;
+        left: 7px;
+    }
+
+    .right {
+        position: relative;
+        top: -13px;
+        left: 73px;
+    }
+
+    input {
+
+        font-size: 10px;
+        width: 140px;
+        height: 18px;
+        border-radius: 9px;
+        position: relative;
+        left: 60px;
+        top: 5vw;
+        z-index: 1;
+    
+    }
+
+    #quotationMarks {
+        font-size: 24px;
+    }
+    
+    
+
+}
